@@ -77,6 +77,7 @@ in
     #"Changed Type1"
 ```
 ---
+## Power Query & Advanced Editor Screenshots (Click to enlarge) :
 <img src="https://github.com/Ammar-yasser-DataAnalysis/HR-Analytics-Dashboard/blob/main/Power%20query%20and%20advanced%20editor.png">
 
 ---
@@ -122,6 +123,10 @@ The cleaned data was loaded directly into **Power Pivot** (Excel's built-in Data
 | `Daily rate` | `Monthly Salary / 30` |
 | `Net Salary` | `(Monthly Salary + Overtime amount) − (Daily rate × Unpaid Leaves)` |
 
+---
+## Power Pivot Screenshots (Click to enlarge) :
+<img src="https://github.com/Ammar-yasser-DataAnalysis/HR-Analytics-Dashboard/blob/main/Power%20pivot.png">
+<img src="https://github.com/Ammar-yasser-DataAnalysis/HR-Analytics-Dashboard/blob/main/Power%20pivot%202.png">
 ---
 
 ## 📊 Pivot Tables & Data Model
