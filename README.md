@@ -81,6 +81,37 @@ in
 
 ---
 
+## 📐 Power Pivot & Data Model
+
+The cleaned data was loaded directly into **Power Pivot** (Excel's built-in Data Model) where all calculated measures were defined — keeping the logic centralized and reusable across all Pivot Tables.
+
+### Calculated Measures (DAX-style in Power Pivot)
+
+| Measure | Description |
+|---|---|
+| `Numbers Of Employees` | Total headcount |
+| `Numbers Of Department` | Distinct department count |
+| `Male` | Count of male employees |
+| `Female` | Count of female employees |
+| `Excellent Performance` | Count of employees rated Excellent |
+| `Medium Performance` | Count of employees rated Medium |
+| `Not Bad Performance` | Count of employees rated Not Bad |
+| `Bad Performance` | Count of employees rated Bad |
+| `Fresh one` | Employee with minimum years of experience |
+| `Oldest Employee` | Employee with maximum years of experience |
+| `Best of job rate` | Maximum job rate value |
+| `Bad Job rate` | Minimum job rate value |
+| `AVG job rate` | Average job rate across all employees |
+| `Avg Salary in month` | Average monthly salary |
+| `avg Overtime Hours` | Average overtime hours per employee |
+| `total Overtime Hours` | Sum of all overtime hours |
+| `Total Monthly Salary` | Sum of all monthly salaries |
+| `Total Annual Salary` | Sum of all annual salaries |
+
+### Data Model Structure
+- Single-table model (**EmpTable**) enriched with all engineered columns from Power Query
+- Date hierarchy auto-generated: **Year → Quarter → Month**
+- All Pivot Tables reference the same Data Model cache — ensuring consistency across the entire dashboard
 
 ### Engineered Columns
 
@@ -153,8 +184,8 @@ All slicers are connected to **all Pivot Tables simultaneously**, making the ent
 
 ---
 ## Dashboard Screenshots (Click to enlarge) :
-<img src="">
-<img src="">
+<img src="https://github.com/Ammar-yasser-DataAnalysis/HR-Analytics-Dashboard/blob/main/Dashboard.png">
+
 
 ---
 
