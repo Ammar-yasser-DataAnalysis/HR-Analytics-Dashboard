@@ -77,7 +77,7 @@ in
     #"Changed Type1"
 ```
 ---
-<img src="">
+<img src="https://github.com/Ammar-yasser-DataAnalysis/HR-Analytics-Dashboard/blob/main/Power%20query%20and%20advanced%20editor.png">
 
 ---
 
